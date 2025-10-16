@@ -12,7 +12,7 @@ namespace Tyuiu.TsvetkovRA.Sprint2.Task5.V9.Test
             int n = 13;
             int res = new int();
             res = n + 1;
-            Assert.AreEqual(ds.FindDateOfNextDay(m, res), "Следующая дата 14.1");
+            Assert.AreEqual(ds.FindDateOfNextDay(m, res), "14.1");
         }
     }
 }
